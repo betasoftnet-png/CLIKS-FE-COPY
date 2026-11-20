@@ -1,0 +1,48 @@
+/* Global Layout Roots */
+.app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    height: calc(100vh - 64px); /* topbar is 64px */
+}
+
+.app-layout-sidebar {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.main-content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;       /* essential for flex shrink to work */
+    overflow: hidden;
+    /* height is driven by app-body flex, not hardcoded */
+    /* margin-right is applied inline from MainLayout for smooth resize */
+}
+
+.content-scrollable {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 2rem;
+}
+
+.content-wrapper {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

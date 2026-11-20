@@ -1,0 +1,43 @@
+/**
+ * Services Module Barrel Export
+ * 
+ * Central export point for all API service modules.
+ */
+
+export * from './authService';
+export * from './accountsService';
+export * from './transactionsService';
+export * from './incomeService';
+export * from './expensesService';
+export * from './budgetsService';
+export * from './savingsService';
+export * from './investmentsService';
+export * from './debtsService';
+export * from './plannedPaymentsService';
+export * from './homeService';
+export * from './financialPlanService';
+export * from './peopleService';
+export * from './contactsService';
+export * from './splitExpenseService';
+export * from './publicService';
+export * from './profileService';
+export * from './settingsService';
+export * from './meetupsService';
+export * from './stockService';
+export * from './goalWalletService';
+export * from './calculatorService';
+export * from './pitchesService';
+export * from './caService';
+export * from './accountingService';
+export * from './gstService';
+export * from './supportService';
+export * from './purchasesService';
+export * from './reportsService';
+export * from './paymentService';
+export * from './warehouseService';
+export * from './businessSegregationService';
+export * from './referralService';
+export * from './financePlusService';
+export * from './staffingService';
+export * from './customerLoyaltyService';
+
