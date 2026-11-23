@@ -11,14 +11,6 @@ export default defineConfig({
   server: {
     port: 5173,
     host: true,
-    proxy: {
-      '/bnx-api': {
-        target: 'https://api.bnxmail.com',
-        changeOrigin: true,
-        secure: true,
-        rewrite: (path) => path.replace(/^\/bnx-api/, '')
-      }
-    }
   },
   resolve: {
     alias: {
